@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/wave_ocean_sea_water_surf_splash_icon_127324 (1).png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/CSS/reset.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <title>Loja Moda do Surf</title>
+</head>
+<body>
+    <header>
+        <div class="icone_titulo">
+            <figure>
+                <a href="https://icon-icons.com/pt/icone/onda-oceano-mar-%C3%A1gua-surf-splash/127324" target="_blank">
+                    <img src="./img/wave_ocean_sea_water_surf_splash_icon_127324 (1).png" alt="Onda Alta">
+                </a>
+            </figure>
+            <h1>Moda do Surf</h1>
+        </div>
+        <div class="header_categorias">
+            <nav>
+                <ul>
+                    <li id="categoria_selecionada">
+                        <button id='0'> >Todos</button>
+                    </li>
+                    <li>
+                        <button id='1'>Acessórios</button>
+                    </li>
+                    <li>
+                        <button id='2'>Calçados</button>
+                    </li>
+                    <li>
+                        <button id='3'>Camisetas</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="modal-categorias">
+            <section class="hamburguer-conteiner">
+                <div class="hamburguer"></div>
+                <div class="hamburguer"></div>
+                <div class="hamburguer"></div>
+            </section>
+            <dialog class="modal-dialog">
+                <div class="modal-dialog-conteiner">
+                    <section class="hamburguer-conteiner">
+                        <div class="hamburguer"></div>
+                        <div class="hamburguer"></div>
+                        <div class="hamburguer"></div>
+                    </section>
+                    <nav>
+                        <ul>
+                            <li id="categoria_selecionada">
+                                <button id='0'>Todos</button>
+                            </li>
+                            <li>
+                                <button id='1'>Acessórios</button>
+                            </li>
+                            <li>
+                                <button id='2'>Calçados</button>
+                            </li>
+                            <li>
+                                <button id='3'>Camisetas</button>
+                            </li>
+                            <li>
+                                <div id="modal-claro-escuro">
+                                    <figure>
+                                        <img data-modo="escuro" id="botao-claro-escuro-modal" src="./img/claro-escuro/sol.png" alt="">
+                                    </figure>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>    
+                </div>
+            </dialog>
+        </div>
+    </header>
+
+    <main>
+        <section class="cards">
+        </section>
+        <aside>
+            <div class="form">
+                <label for="texto_pesquisa"></label>
+                <input type="text" id='texto_pesquisa' placeholder="Digite aqui sua pesquisa"/>
+                <label for="botao_pesquisar"></label>
+                <button class="botao_pesquisar">Pesquisar</button>
+            </div>
+            
+            <details>
+                <summary>Carrinho de Compras</summary>
+                
+                <section id="compras">
+                </section>
+            </details>
+            <div id="claro-escuro">
+                <figure>
+                    <img data-modo="escuro" id="botao-claro-escuro" src="./img/claro-escuro/sol.png" alt="">
+                </figure>
+            </div>
+
+        </aside>
+    </main>
+
+    <script src="./assets/JS/database.js"></script>
+    <script src="./assets/JS/cliques.js"></script>
+    <script src="./assets/JS/remover.js"></script>
+    <script src="./assets/JS/claro-escuro.js"></script>
+    <script src="./assets/JS/criar.js"></script>
+</body>
+</html>
